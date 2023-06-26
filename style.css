@@ -20,6 +20,15 @@ a {
 
 }
 
+h2 {
+    font-size: 26px !important;
+}
+
+.logo {
+    margin-top: 50px;
+    width: 400px !important;
+    height: auto !important;
+}
 
 .container,
 .header,
@@ -29,6 +38,7 @@ body {
 }
 
 .container {
+    width: 80%;
     height: auto;
 }
 
@@ -63,4 +73,10 @@ body {
 .content {
     display: flex;
     flex-flow: row wrap;
+}
+
+@media (min-width:32px) and (max-width:768px) {
+    h2 {
+        font-size: 22px !important;
+    }
 }
